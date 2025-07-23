@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Game Over 🎮</title>
+    <style>
+        body {
+            background: #fff9f0;
+            font-family: sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            font-size: 32px;
+        }
+        .score {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ message }}</h1>
+    <div class="score">🏆 Final Score: {{ score }}/10</div>
+    <a href="/">Play Again 🔁</a>
+</body>
+</html>
